@@ -42,7 +42,8 @@ if _IS_PLATFORM_WINDOWS:
     _USER_DISK = 'D:/'
 else:
     _OS_DISK = "/"
-    _USER_DISK = '/mnt/resources'
+    # _USER_DISK = '/mnt/resources'
+    _USER_DISK = '/mnt/resource'
     if not os.path.exists(_USER_DISK):
         _USER_DISK = '/mnt'
 
